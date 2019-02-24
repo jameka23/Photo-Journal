@@ -5,9 +5,19 @@
     flex-direction: column;
 }
 
+
+
 .home-header, .home-description {
     display: flex;
     justify-content: center;
+}
+
+.about-body {
+    background-color: rgb(60, 101, 145);
+}
+
+.about-hr {
+    text-align: center;
 }
 
 .about-img {
@@ -17,4 +27,14 @@
     margin-top: 10px;
     margin-bottom: 39px;
     border: 1px black solid;
+}
+
+.form-container {
+    /* centers the form field */
+    margin: 0 auto;
+    width: 50%;
+}
+
+.footer {
+    margin-top: 35px;
 }
