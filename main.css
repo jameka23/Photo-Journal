@@ -1,17 +1,25 @@
+/* All html files */
 .footer, .about-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.footer {
+    margin-top: 35px;
+}
 
-
-
+/* index.html CSS */
 .home-header, .home-description {
     display: flex;
     justify-content: center;
 }
 
+ /* end index.html CSS */
+
+
+
+/* About.html CSS */
 .about-body {
     background-color: rgb(60, 101, 145);
 }
@@ -19,7 +27,6 @@
 .about-hr {
     text-align: center;
 }
-
 .about-img {
     max-width: 600px;
     max-height: 350px;
@@ -34,7 +41,11 @@
     margin: 0 auto;
     width: 50%;
 }
+/* end About.html CSS */
 
-.footer {
-    margin-top: 35px;
+/* Photos.html CSS */
+.card-body {
+    margin-left: 30px;
+    margin-right: 30px;
 }
+
