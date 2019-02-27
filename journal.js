@@ -2,7 +2,7 @@
 let contactFirstName = document.getElementById("contactFirstName");
 let contactLastName = document.getElementById("contactLastName");
 let contactEmail = document.getElementById("contactEmail");
-let form = document.getElementById("contactMe");
+let form = document.getElementById("formContact");
 
 // addEventListener
 form.addEventListener("submit", output);
