@@ -1,15 +1,14 @@
 // Variable Declarations
-let contactFirstName = document.getElementById("contactFirstName");
-let contactLastName = document.getElementById("contactLastName");
-let contactEmail = document.getElementById("contactEmail");
 let form = document.getElementById("formContact");
 
-// addEventListener
-form.addEventListener("submit", output);
-
 // Function to console.log user contact info 
-function output(contactFirstName, contactLastName, contactEmail) {
+function output() {
+    let contactFirstName = document.getElementById("contactFirstName").value;
+    let contactLastName = document.getElementById("contactLastName").value;
+    let contactEmail = document.getElementById("contactEmail").value;
     console.log("The user's contact information is:");
     console.log("Name: " + contactFirstName + " " + contactLastName + " Email: " + contactEmail + ".");
 }
 
+// addEventListener
+form.addEventListener("click", output);
