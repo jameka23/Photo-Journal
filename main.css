@@ -49,3 +49,7 @@
     margin-right: 30px;
 }
 
+.modalImages {
+    max-width: 400px;
+    max-height: 400px;
+}
