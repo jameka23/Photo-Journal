@@ -46,7 +46,7 @@
       </button> -->
       
       <!-- Modal Pop-Out -->
-    <div class="modal fade" id="falls1" tabindex="-1" role="dialog" aria-labelledby="falls1Title" aria-hidden="true">
+    <!-- <div class="modal fade" id="falls1" tabindex="-1" role="dialog" aria-labelledby="falls1Title" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -56,7 +56,7 @@
                     </button>
                 </div>
             <div class="modal-body">
-                
+
                     <img class="modalImages img-responsive" src="images/cumminfalls.jpg" alt="cumminfalls">
                     <p>testing</p>
 
@@ -67,7 +67,7 @@
             </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -92,8 +92,8 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <img src="images/cumminfalls.jpg" alt="cumminfalls">
-                                            <p>testing</p>
+                                            <img class="modalImages" src="images/cumminfalls.jpg" alt="cumminfalls">
+                                            <p>Cummin Falls</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -102,7 +102,6 @@
                                 </div>
                             </div>
                             <!-- end Modal -->
-
                         <div class="card-body">
                             <p class="card-text">Cummin Falls. Located in Cookeville, TN.</p>
                         </div>
@@ -114,7 +113,30 @@
             <div class="card">
                 <div class="card-body">
                     <div class="card" style="width: 18rem;">
-                        <img src="images/smokymtn.jpg" class="card-img-top" alt="...">
+                        <img src="images/smokymtn.jpg" class="card-img-top" data-toggle="modal" data-target="#views" alt="...">
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="views" tabindex="-1" role="dialog" aria-labelledby="viewsTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="viewsTitle"></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body modBod">
+                                            <img class="modalImages" src="images/smokymtn.jpg" alt="smokymtn">
+                                            <p>Smokies</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end Modal -->
+
                         <div class="card-body">
                             <p class="card-text">A scenic view in the Smokey Mountains. East TN.</p>
                         </div>
@@ -128,7 +150,30 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card" style="width: 18rem;">
-                            <img src="images/fosterfalls.jpg" class="card-img-top" alt="...">
+                            <img src="images/fosterfalls.jpg" class="card-img-top" data-toggle="modal" data-target="#foster" alt="...">
+
+                        <!-- Modal -->
+                            <div class="modal fade" id="foster" tabindex="-1" role="dialog" aria-labelledby="fosterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="fosterTitle">Cummins Falls</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modalImages" src="images/fosterfalls.jpg" alt="fosterfalls">
+                                            <p>Foster Falls</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end Modal -->
+
                             <div class="card-body">
                                 <p class="card-text">Foster Falls. Located in Sequatchie, TN.</p>
                             </div>
@@ -140,7 +185,28 @@
             <div class="card">
                 <div class="card-body">
                     <div class="card" style="width: 18rem;">
-                        <img src="images/chattahoocheeriver.jpg" class="card-img-top" alt="...">
+                        <img src="images/chattahoocheeriver.jpg" class="card-img-top" data-toggle="modal" data-target="#chatt" alt="...">
+                        <!-- Modal -->
+                        <div class="modal fade" id="chatt" tabindex="-1" role="dialog" aria-labelledby="chattTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="chattTitle">Chattahoochee River View</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="modalImages" src="images/chattahoocheeriver.jpg" alt="fosterfalls">
+                                        <p>Scenic View</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- end Modal -->
                         <div class="card-body">
                             <p class="card-text">Chattahoochee Scenic view. Located in the Chattahoochee National Park.</p>
                         </div>
@@ -154,7 +220,32 @@
             <div class="card">
                 <div class="card-body">
                     <div class="card" style="width: 18rem;">
-                        <img src="images/burgess.jpg" class="card-img-top" alt="...">
+                        <img src="images/burgess.jpg" class="card-img-top" data-toggle="modal" data-target="#burg" alt="...">
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="burg" tabindex="-1" role="dialog" aria-labelledby="burgTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="burgTitle">Burgess Falls</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="modalImages" src="images/burgess.jpg" alt="burgess">
+                                            <p>Burgess</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end Modal -->
+
+
+
                         <div class="card-body">
                             <p class="card-text">Burgess Falls. Located in Sparta, TN.</p>
                         </div>
