@@ -17,7 +17,11 @@
 
  /* end index.html CSS */
 
-
+.homeImg {
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 321px;
+}
 
 /* About.html CSS */
 .about-body {
